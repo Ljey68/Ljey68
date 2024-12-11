@@ -40,7 +40,7 @@ def update_weather():
     except Exception as e:
         label_temp.config(text="Error!")
         label_humidity.config(text="Error!")
-        print(f"خطا در دریافت داده‌ها: {e}")
+        print(f"we got some error!!: {e}")
 
 
 button_update = tk.Button(root, text="Update Weather", command=update_weather, width=20, bg="blue", fg="white", font=("Arial", 12))
